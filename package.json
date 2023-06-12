@@ -1,6 +1,6 @@
 {
   "name": "@vinodk007/imageengine-vue-with-github-actions",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Vue components for seamless integration with ImageEngine",
   "scripts": {
     "build": "vue-cli-service build --target lib --name imageengineVue ./src/main.ts"
