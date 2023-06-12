@@ -1,0 +1,49 @@
+{
+  "name": "@vinodk007/imageengine-vue-with-github-actions",
+  "version": "1.0.0",
+  "description": "Vue components for seamless integration with ImageEngine",
+  "scripts": {
+    "build": "vue-cli-service build --target lib --name imageengineVue ./src/main.ts"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "@vue/cli-plugin-typescript": "^4.5.13",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "typescript": "^4.3.2",
+    "vue": "^2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imgeng/imageengine-vue.git"
+  },
+  "keywords": [
+    "vue",
+    "image cdn",
+    "ImageEngine"
+  ],
+  "author": "Luka Bjelica | https://github.com/luksha6",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imgeng/imageengine-vue/issues"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@vue/typescript/recommended"
+    ]
+  },
+  "homepage": "https://github.com/imgeng/imageengine-vue#readme",
+  "main": "./dist/imageengineVue.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ]
+}
